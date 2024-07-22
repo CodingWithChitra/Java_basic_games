@@ -1,2 +1,15 @@
-# Java_basic_games
-Java_basic_games
+# លំហាត់ហ្គេមក្នុងមេរៀន Java ថ្នាក់ទី១
+ប្រសិនជាចង់ទិញកាហ្វេអោយខ្ញុំអ្នកទាំងអស់គ្នាអាចចូលរួមតាមរយ:៖
+🏦 ACLEDA : 086457324 
+🏦 ABA    : 086457324
+
+1. ហ្គេមទាយលេខ
+2. ហ្គេមប៉ាវស៊ីងស៊ុង
+3. ម៉ាស៊ីនគិតលេខសាមញ្ញា
+4. FizzBuzz
+5. Even or Odd
+6. Simple Menu
+7. ម៉ាស៊ីនគិតលេខ Factorial
+8. Reverse a String
+9. រាប់ស្រៈ និងព្យញ្ជនៈ
+10. Simple Password Validator
