@@ -32,7 +32,7 @@ This is a description of my project.
 
 ## Screenshot
 
-![Screenshot of My Project](resources/Screenshot 2024-07-25 at 10.14.24 at night.png)
+![Screenshot of My Project](https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/Screenshot%202024-07-25%20at%2010.14.52%20at%20night.png)
 
 4. else-if ladder  
    - យល់ដឹងអំពីការប្រើប្រាស់ else-if ladder កាន់តែច្បាស់
