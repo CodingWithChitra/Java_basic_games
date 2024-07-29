@@ -38,7 +38,8 @@
 
 5. break statement  
    - យល់ថាតើយើងគួរតែប្រើប្រាស់ break នៅពេលណា
-
+### Break Statement
+<img src="https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/break.png" alt="Break Statement" width="800"/>
 
 ### គាំទ្រខ្ញុំតាមរយ:
 <img src="https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/qrcode.png" alt="Else if Ladder" width="800"/>
