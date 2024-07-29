@@ -35,6 +35,8 @@
    - យល់ដឹងអំពីការប្រើប្រាស់ else-if ladder កាន់តែច្បាស់
 ### While Loop Statement
 ![While Loop Statement](https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/else-if-ladder.png)
+<img src="https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/else-if-ladder.png" alt="While Loop Statement" width="500"/>
+
 5. break statement  
    - យល់ថាតើយើងគួរតែប្រើប្រាស់ break នៅពេលណា
 
