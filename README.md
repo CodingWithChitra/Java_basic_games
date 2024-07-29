@@ -28,13 +28,17 @@
    - អោយ System បញ្ចេញលេខចៃដន្យ ពី​ ០ ទៅ ដល់ ១០០
 3. while loop statement  
    - យល់ដឹងអំពីរបៀបប្រើប្រាស់ Loop(វិលជុំ) កាន់តែច្បាស់
+   ### While Loop Statement
 ![While Loop Statement](https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/while-loop-statement.png)
 
 4. else-if ladder  
    - យល់ដឹងអំពីការប្រើប្រាស់ else-if ladder កាន់តែច្បាស់
+### While Loop Statement
 ![While Loop Statement](https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/else-if-ladder.png)
 5. break statement  
    - យល់ថាតើយើងគួរតែប្រើប្រាស់ break នៅពេលណា
 
+
+### គាំទ្រខ្ញុំតាមរយ:
 ![គាំទ្រខ្ញុំតាមរយ:](https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/qrcode.png)
    
