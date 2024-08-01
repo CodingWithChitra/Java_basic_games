@@ -15,10 +15,6 @@
   ### 🏦 ABA    : 086457324
 
 ## 1.ហ្គេមទាយលេខ
-  ## ប្រសិនជាចង់ទិញកាហ្វេអោយខ្ញុំអ្នកទាំងអស់គ្នាអាចចូលរួមតាមរយ:៖  
-  ### 🏦 ACLEDA : 086457324  
-  ### 🏦 ABA    : 086457324
-  
 ### បង្កើតហ្គេមទាយលេខសាមញ្ញមួយដែលកម្មវិធីជ្រើសរើសលេខដោយចៃដន្យរវាងលេខ
  1 ដល់ 100។ 
 អ្នកប្រើប្រាស់ត្រូវទាយលេខ ហើយកម្មវិធីនេះផ្តល់ការណែនាំប្រសិនបើការទាយខ្ពស់ពេក ឬទាបពេក។
@@ -71,6 +67,61 @@ Computer's Move
 - The game checks the user's move against the computer's move to determine the winner or if it's a tie.
 End the Game
 - If the user types "Exit," the game loop ends, and a thank you message is displayed.
+
+# Rock-Paper-Scissors Game
+
+This repository contains a simple Rock-Paper-Scissors game implemented in Java.
+
+## Java Code
+
+```java
+import java.util.Scanner;
+import java.util.Random;
+
+public class RockPaperScissors {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        String[] rps = {"Rock", "Paper", "Scissors"};
+        boolean playAgain = true;
+
+        while (playAgain) {
+            System.out.println("Enter move (Rock, Paper, Scissors). To exit the game, type Exit:");
+            String userMove = scanner.nextLine();
+
+            if (userMove.equalsIgnoreCase("Exit")) {
+                playAgain = false;
+            } else if (isValidMove(userMove)) {
+                int computerIndex = random.nextInt(3);
+                String computerMove = rps[computerIndex];
+
+                System.out.println("Computer move: " + computerMove);
+
+                if (userMove.equalsIgnoreCase(computerMove)) {
+                    System.out.println("It's a tie!");
+                } else if (userMove.equalsIgnoreCase("Rock") && computerMove.equals("Scissors")
+                        || userMove.equalsIgnoreCase("Paper") && computerMove.equals("Rock")
+                        || userMove.equalsIgnoreCase("Scissors") && computerMove.equals("Paper")) {
+                    System.out.println("You win!");
+                } else {
+                    System.out.println("You lose!");
+                }
+            } else {
+                System.out.println("Invalid move. Please try again.");
+            }
+        }
+
+        System.out.println("Thanks for playing!");
+        scanner.close();
+    }
+
+    private static boolean isValidMove(String move) {
+        return move.equalsIgnoreCase("Rock") || move.equalsIgnoreCase("Paper") || move.equalsIgnoreCase("Scissors");
+    }
+}
+
+
 
 ### គាំទ្រខ្ញុំតាមរយ:
 <img src="https://github.com/CodingWithChitra/Java_basic_games/blob/main/resources/qrcode.png" alt="Else if Ladder" width="800"/>
