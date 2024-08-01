@@ -120,7 +120,7 @@ public class RockPaperScissors {
         return move.equalsIgnoreCase("Rock") || move.equalsIgnoreCase("Paper") || move.equalsIgnoreCase("Scissors");
     }
 }
-
+```
 
 
 ### គាំទ្រខ្ញុំតាមរយ:
